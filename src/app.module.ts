@@ -23,11 +23,11 @@ import { PurchaseModule } from './purchase/purchase.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
-      port: 5434,
-      username: 'root',
-      password: 'root',
-      database: 'final',
+      host: 'trumpet.db.elephantsql.com',
+      port: 5432,
+      username: 'qsyqrihd',
+      password: '0CbW1eTypqsE_pkyWHVI_f5nCWi_gVnJ',
+      database: 'qsyqrihd',
       entities: [
         Users,
         ProductCategory,
